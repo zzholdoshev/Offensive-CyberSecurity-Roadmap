@@ -20,11 +20,11 @@
 	
 	> recommended: 
 	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course(RU)]]
-	
+
 3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #programming #code_security #malware^114cf4
    > C coding is mandatory if you go into low-level security:
 	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
-	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
+	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) . You should know most of the topics if you completed Core from the first roadmap. It makes sense to go through assignment 21-28 .
 	* [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
 	
 	> reverse engineering and binary exploitation
@@ -83,7 +83,7 @@
 # Core - C, coding, SQL, computer networks, crypto and tools
 
 > [!about Ecole42 / school21]
-> In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can use alternative path if you are not a school 21 / Ecole42. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
+> In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can use alternative path if you are not a school 21 / Ecole42 student. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
 > Starting from 10th project in School 21, the most fundamental topics are completed and specialization is started. This projects are focused on CbS engineering rather than offensive security so I decided to make them optional though some of the concepts are relevant and helpful (especially 12th and 13 projects)
 
 ## Core CbS Ecole42 / School 21 projects ([[🧭 CyberSecurity roadmap. Starting point#^29096b|Alternative]]):
@@ -142,10 +142,9 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
  > just read articles, watch youtube lectures, then deploy VMs in KVM/Virtualbox. Run some docker containers - learn about isolation, basic docker networking
 ### #C :
 - [ ] Learn [basic Syntax](https://www.learn-c.org)
-- [ ] C/C++: great russian-language [course](https://stepik.org/course/193691/syllabus). The most comprehensive online course on C/C++ i have ever seen, you can use AI for translation if don't know russian.
 - [ ] github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) ^a97ce8
 > OR find, review and complete other courses that cover C programming.
-- [ ] build a C/C++ pet project, you can review some C/C++ project ideas [here](https://github.com/Xtremilicious/projectlearn-project-based-learning)
+- [ ] build a C/C++ pet project, you can review some C/C++ project ideas [here](https://github.com/Xtremilicious/projectlearn-project-based-learning)(suggested: tetris, sudoku, chess etc)
 - [ ] learn how to use valgrind and gdb
 > **Use Valgrind to check for memory leaks**, push code to github/gitlab and use clang-format. This will teach you how to think like a programmer as well as some low-level concepts. This is also a preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] 
 
@@ -175,15 +174,15 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 # Web pentest I and CTF warm-up
 ^dcbdf9
 ## HTB pentest intro:
-* [ ] [Starting point](https://app.hackthebox.com/starting-point?tab=1) - free labs, basic pentest introduction, both #infra and #web covered
+* [ ] [Starting point](https://app.hackthebox.com/starting-point?tab=1) - free labs, pentest introduction, both #infra and #web covered, as well as #privesc_I 
 *   active machines on HTB (optional for this roadmap, but very useful in general)
 
 ## WEB pentest I:
+### pwn.college
+ - [ ] pwn.college [talking web](https://pwn.college/fundamentals/talking-web/) - foundational knowledge about web, HTTP, cookies, json etc
 ### overthewire web wargame:
 * [ ] [overthewire natas](https://overthewire.org/wargames/natas/)  - legendary wargame for getting into web pentest #web 
 
-### pwn.college
- - [ ] pwn.college [talking web](https://pwn.college/fundamentals/talking-web/) - foundational knowledge about web, HTTP, cookies, json etc
 ### [THM](https://tryhackme.com) #web_I rooms:
 
 * [ ] install and learn burp [suite](https://tryhackme.com/room/burpsuiterepeater) 
@@ -286,7 +285,9 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 | 🔒 **Crypto**                    | [cryptohack](https://cryptohack.org/challenges/) / [pwn.college - crypto](https://pwn.college/intro-to-cybersecurity/cryptography/)                                                                                                                                                  |
 | 🏴 **CTF / universal platforms** | [picoCTF](https://picoctf.org/get_started.html) / [Hacker101 CTF](https://ctf.hacker101.com/) / [THM](https://tryhackme.com) / [HTB](https://app.hackthebox.com/starting-point?tab=1)                                                                                                |
  ^d87ae9
+more [links](https://github.com/Crypto-Cat/CTF)
 
+---
 ## 📚 Books, lectures, courses
 
 * Computer Networks
