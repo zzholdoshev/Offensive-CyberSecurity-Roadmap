@@ -1,20 +1,20 @@
 {
 	"nodes":[
-		{"id":"9cdf9b98de261403","type":"text","text":"[[🧭 CyberSecurity roadmap. Starting point#^fb96d5|CTF]]","x":-510,"y":-110,"width":180,"height":60,"color":"1"},
 		{"id":"2204117cbf2dc692","type":"text","text":"- [ ] [[🧭 CyberSecurity roadmap. Starting point]]\n\n`Suitable roles: SOC L1, intern web pentest`","x":-267,"y":-420,"width":385,"height":140,"color":"1"},
-		{"id":"771295a9f7b0a7f3","type":"text","text":"[[🧭 CyberSecurity roadmap. Starting point#^718bdd|BugBounty]]","x":310,"y":-145,"width":250,"height":60,"color":"1"},
-		{"id":"de84ad4f418ab950","type":"text","text":"- [ ] [[☁️cloud CbS roadmap]] \n\n`suitable roles: appsec in cloud infrastructure company (intern/junior)`","x":-510,"y":130,"width":330,"height":170},
-		{"id":"29bc6583828aa674","type":"text","text":"- [ ] [[🧭 CyberSecurity roadmap. Starting point#^114cf4|CbS advanced roadmap]]\n\n`Suitable roles: pentest and appsec, more complex BugBounty cases, CbS researcher, reverse engineer, malware analyst etc`","x":123,"y":60,"width":375,"height":180,"color":"1"},
-		{"id":"5af174e7d56072ff","type":"text","text":"- [ ] [[🏴Cbs intermediate roadmap]]\n\n`Suitable roles: intern pentest, intern appsec, BugBounty Hunter`","x":-249,"y":-180,"width":350,"height":130,"color":"1"},
-		{"id":"04a70bf8bf4af6f7","type":"text","text":"Additional specialization and pivoting\n","x":178,"y":400,"width":265,"height":80}
+		{"id":"29bc6583828aa674","type":"text","text":"- [ ] [[🧭 CyberSecurity roadmap. Starting point#^114cf4|Vulnerability Research roadmap]]\n\n`Suitable roles: pentest and appsec, more complex BugBounty cases, CbS researcher, reverse engineer, malware analyst etc`","x":123,"y":60,"width":375,"height":180,"color":"1"},
+		{"id":"9cdf9b98de261403","type":"text","text":"[[🧭 CyberSecurity roadmap. Starting point#^fb96d5|CTF]]","x":-620,"y":-380,"width":180,"height":60,"color":"1"},
+		{"id":"5af174e7d56072ff","type":"text","text":"- [ ] [[🏴Pentest roadmap]]\n\n`Suitable roles: intern pentest, intern appsec, BugBounty Hunter`","x":-630,"y":-85,"width":350,"height":130,"color":"1"},
+		{"id":"de84ad4f418ab950","type":"text","text":"- [ ] [[☁️cloud CbS roadmap]] \n\n`suitable roles: appsec in cloud infrastructure company (intern/junior)`","x":-1000,"y":230,"width":330,"height":170},
+		{"id":"771295a9f7b0a7f3","type":"text","text":"[[🧭 CyberSecurity roadmap. Starting point#^718bdd|BugBounty]]\nor VDP","x":-580,"y":560,"width":250,"height":60,"color":"1"},
+		{"id":"e9652989db0b55de","type":"text","text":"[[Low-level BugBounty roadmap|Low-level-BugBounty]]","x":194,"y":500,"width":234,"height":60,"color":"1"}
 	],
 	"edges":[
 		{"id":"d9ab9ff2cd994d99","fromNode":"5af174e7d56072ff","fromSide":"bottom","toNode":"de84ad4f418ab950","toSide":"top","label":"optional"},
-		{"id":"ab159555515d7f70","fromNode":"5af174e7d56072ff","fromSide":"bottom","toNode":"29bc6583828aa674","toSide":"left","color":"1","label":"3"},
-		{"id":"935c4e64375541dd","fromNode":"2204117cbf2dc692","fromSide":"bottom","toNode":"5af174e7d56072ff","toSide":"top","color":"1","label":"2"},
-		{"id":"314970120be952ea","fromNode":"2204117cbf2dc692","fromSide":"left","toNode":"9cdf9b98de261403","toSide":"top","color":"1","label":"mandatory"},
-		{"id":"f57066df60969f90","fromNode":"5af174e7d56072ff","fromSide":"right","toNode":"771295a9f7b0a7f3","toSide":"left","color":"5","label":" if ready"},
-		{"id":"298c8674b77a7c3b","fromNode":"29bc6583828aa674","fromSide":"bottom","toNode":"04a70bf8bf4af6f7","toSide":"top","label":"optional"},
-		{"id":"3d1c4b5b1d84a15c","fromNode":"29bc6583828aa674","fromSide":"top","toNode":"771295a9f7b0a7f3","toSide":"bottom","color":"1","label":"mandatory"}
+		{"id":"ab159555515d7f70","fromNode":"2204117cbf2dc692","fromSide":"bottom","toNode":"29bc6583828aa674","toSide":"top","color":"1","label":"Vulnerability Research"},
+		{"id":"935c4e64375541dd","fromNode":"2204117cbf2dc692","fromSide":"bottom","toNode":"5af174e7d56072ff","toSide":"top","color":"1","label":"Pentest"},
+		{"id":"314970120be952ea","fromNode":"2204117cbf2dc692","fromSide":"left","toNode":"9cdf9b98de261403","toSide":"right","color":"1","label":"mandatory"},
+		{"id":"eee7663abd5100ee","fromNode":"5af174e7d56072ff","fromSide":"bottom","toNode":"771295a9f7b0a7f3","toSide":"top","color":"1"},
+		{"id":"984a76430975368b","fromNode":"de84ad4f418ab950","fromSide":"bottom","toNode":"771295a9f7b0a7f3","toSide":"left","color":"1"},
+		{"id":"80fd5bfb0aded935","fromNode":"29bc6583828aa674","fromSide":"bottom","toNode":"e9652989db0b55de","toSide":"top"}
 	]
 }

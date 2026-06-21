@@ -6,44 +6,44 @@
 
 1.  Starting point. Go through this roadmap from top to bottom, starting from [[🧭 CyberSecurity roadmap. Starting point#^06e269|Intro]] #basic_cbs #web_I #privesc_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
 	 > Start participating in CTFs as early as possible. Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
-2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_II #networks_II
-	> In order to better understand web apps - try building something. In terms of languages I suggest Go[^1](could be Java or any other language used for backend):
-	* [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
-	- [ ] Go bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
-   
-   >OR an alternative for non-students:
-	* [ ] learn Go syntax - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). [Go by example](https://gobyexample.com). Also review this [course](https://www.w3schools.com/go/index.php)
-	- [ ] build backend as [pet-project](https://roadmap.sh/golang/projects?difficulty=advanced), or search project ideas in any other language
+
+After completing Starting point, choose specialization:
+- [[🏴Pentest roadmap|pentest roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_II #networks_II
+	> In order to better understand web apps - try building something. In terms of languages I suggest Go[^1] OR Java or any other language used for backend):
 	
+	- [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
+	- [ ] Go / Java bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
+
+   	> OR an alternative for non-students:
+	- [ ] Learn Go or Java:
+		* [ ] learn Go (best choice for pentset) - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). [Go by example](https://gobyexample.com). Also review this [course](https://www.w3schools.com/go/index.php)
+			`OR:`
+		- [ ] [Java](https://java-programming.mooc.fi) (best choice for appsec/reverse/mobile security researcher)
+	- [ ] build backend as [pet-project](https://roadmap.sh/golang/projects?difficulty=advanced), or search project ideas in any other language
 	> optional:
 	* [ ] [[☁️cloud CbS roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes 
-	
-	> recommended: 
+	> recommended:
 	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course(RU)]]
 
-3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #programming #code_security #malware^114cf4
-   > C coding is mandatory if you go into low-level security:
-	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
-	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) . You should know most of the topics if you completed Core from the first roadmap. It makes sense to go through assignment 21-28 .
-	* [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
-	
+- Vulnerability research roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #programming #code_security #malware^114cf4
+	 - [ ] complete [[🏴Pentest roadmap#^5207fe|linux]], [[🏴Pentest roadmap#^7b6d4d|docker]] and [[🏴Pentest roadmap#^e54225|windows]] parts of pentest roadmap. It's crucial to understand the the defensive mechanisms and attack surface of linux/windows
 	> reverse engineering and binary exploitation
-	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, access control, privEsc, data encoding, crypto and program misuse are included in the first 2 roadmaps.
+	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, playing with programs, access control, privEsc, crypto are included in the first 2 roadmaps. If you completed them - start from "Computing 101"
 	 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
 	 * [ ] [OverTheWire](https://overthewire.org/wargames/) - leviathan, narnia, behemoth - classic reverse / binary exploitation wargames
+	 * [ ] [How2Heap](https://github.com/shellphish/how2heap) - heap exploitation 
 	 * [ ] Modern Binary Exploitation [course](https://github.com/RPISEC/MBE) from RPISEC
 	 * [ ] ROP [challenges](https://ropemporium.com/) - binary exploitation challenges
 	 * [Crackmes](https://crackmes.one) and other [[🧭 CyberSecurity roadmap. Starting point#^8af021|links]]
+	
+	> C coding is mandatory if you go into low-level security:
+	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
+	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) . You should know most of the topics if you completed Core from the first roadmap. It makes sense to go through assignment 21-28 .
+	* [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
 	 
 	 > malware courses
 	* [ ] https://malwareunicorn.org/workshops/re101.html#0
 	* [ ] https://malwareunicorn.org/workshops/re102.html#0
-	 
-	 > roadmaps:
-	 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
-	 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-	 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
-	 * You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
 	 
 	 > Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. There are some courses in russian. If you don't know russian, use AI for translation. 
 	 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex(RU)
@@ -58,9 +58,15 @@
 	* [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Recommended: for web/infra pentest - web server, browser, network stack, dns server, for low-level -  docker, shell, emulator
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
+	> roadmaps:
+	 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
+	 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
+	 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
+	 * You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
 * Do when you are ready:
-	> CbS games & BugBounty (recommended upon completion of [[🏴Cbs intermediate roadmap]]): ^718bdd
+	> CbS games & BugBounty (recommended upon completion of [[🏴Pentest roadmap]]): ^718bdd
 	* BugBounty: https://bugbounty.standoff365.com/programs/standoff-365?tab=1
+	-  VDP
 	* https://www.hackerone.com/bug-bounty-programs
 	* https://bugbounty.ru/
 	* Bootcamp: https://hackbase.standoff365.com/battle/7/industry/27?tab=general
@@ -75,7 +81,8 @@
 - [ ] CS50 [CyberSecurity](https://youtube.com/playlist?list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE&si=03-zJ1H9ROsNyFsC). An introduction to cybersecurity for technical and non-technical audiences alike
 # Intro - linux and data encoding
 - [ ] install linux as primary desktop OS, use it daily
-* [ ] [pwn.college](https://pwn.college/linux-luminarium/) - #linux luminarium. basic linux & bash course
+* [ ] [pwn.college](https://pwn.college/linux-luminarium/) - #linux luminarium. basic linux course
+* [ ] learn [bash scripting](https://linuxhandbook.com/courses/bash/) - for loops, functions, variables, special chars, arrays. just read the articles if you have programming experience
 * [ ] [overthewire bandit](https://overthewire.org/wargames/bandit/) #linux intro. classic wargame on linux, cbs, basic utilities. read writeups when stuck, but try to do everything on your own ^0accf7
 * [ ] [pwn.college](https://pwn.college/fundamentals/program-misuse/) - program misuse - basic privilege escalation on linux using standard utilities #privesc_I
 * [ ] [pwn.college](https://pwn.college/fundamentals/data-dealings/) - data & encoding (prerequisite for WEB)
@@ -86,16 +93,15 @@
 > In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can use alternative path if you are not a school 21 / Ecole42 student. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
 > Starting from 10th project in School 21, the most fundamental topics are completed and specialization is started. This projects are focused on CbS engineering rather than offensive security so I decided to make them optional though some of the concepts are relevant and helpful (especially 12th and 13 projects)
 
-## Core CbS Ecole42 / School 21 projects ([[🧭 CyberSecurity roadmap. Starting point#^29096b|Alternative]]):
+## Core CbS Ecole42 / School 21 projects ([[🧭 CyberSecurity roadmap. Starting point#^29096b|Alternative]] if you are not Ecole 42 / school 21 student):
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
 - [ ] C bootcamp 
 ### School 21 / Ecole42 sql bootcamp #SQL
 - [ ] SQL bootcamp 
 ### School 21 / Ecole42 devops projects
-- [ ] the first basic devops projects 
+- [ ] don't go too deep, make a couple of projects on linux, networks, automation and docker
 
->  On topics like linux, network and docker. Don't go too deep into pure devops projects
 ### School 21 CbS projects
 #### School 21 CbS 1-4 projects #networks_I #gns3 #wireshark
 * [ ] s21_1 ✅ 
@@ -120,10 +126,10 @@
 * [ ] s21_18 - social engineering and #OSINT
 ### Ecole42 CbS projects
 * [ ] Review and complete the most important CbS projects in Ecole42, especially on topics like networks, crypto, linux. Don't go too deep - start doing CTFs and other parts of this roadmap ASAP
-## Alternative for core CbS Ecole42 / School 21:
+## Alternative track for Core:
 
 ^29096b
-### Intro to computer science
+### Intro to computer science and technical security
 * [ ] [CS50](https://youtube.com/playlist?list=PLhQjrBD2T380hlTqAU8HfvVepCcjCqTg6&si=6fRP30JMlcproLeo) (optional) - legendary Stanford introduction to computer science. Gives you basic understanding of C and coding, memory, algorithms, data structures and how computer works. You can drop AI part. This course includes not only lectures abut also [problem set](https://cs50.harvard.edu/x/) Updated every year. If pacing seems a bit slow - skip this part.
 * [ ] Great fundamental [course](https://www.roppers.org/courses/technical-security-fundamentals) about technical security 
 
@@ -167,7 +173,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 	
 * Additional courses:
 	* Russian-lang courses: [A. Sozykin](https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1)
-	* more advanced networking courses and network security in [[🏴Cbs intermediate roadmap#^9ad11f]]. You don't need CCNA at this point, but you need to know basics - you can try CISCO courses in that roadmap or CCNA if you are **really** interested in networks.
+	* more advanced networking courses and network security in [[🏴Pentest roadmap#^9ad11f]]. You don't need CCNA at this point, but you need to know basics - you can try CISCO courses in that roadmap or CCNA if you are **really** interested in networks.
 
 
 
@@ -265,7 +271,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] free [TryHackMe](https://github.com/AtikBagwan00/tryhackme-soc-free-labs) BlueTeam rooms. Some of them are  VIP/paid, especially connected to SIEM, others are free
 # Next => intermediate roadmap
 > At this point you have completed first CbS roadmap, congratulations. You can learn more advanced topics in the next intermediate roadmap
-* [ ] start here: [[🏴Cbs intermediate roadmap]]
+* [ ] start here: [[🏴Pentest roadmap]]
 
 ---
 # labs, CTF challenges, courses
@@ -274,12 +280,12 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 
 | Category                         | Resources                                                                                                                                                                                                                                                                            |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 🌐 **Web**                       | 🟣 **[PortSwigger]()**  **[[🏴Cbs intermediate roadmap#^cf620a\|local web apps]]**                                                                                                                                                                                                   |
+| 🌐 **Web**                       | 🟣 **[PortSwigger]()**  **[[🏴Pentest roadmap#^cf620a\|local web apps]]**                                                                                                                                                                                                   |
 | 💣 **Binary** / 🧠 **Reverse**   | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Nightmare](https://guyinatuxedo.github.io/) / [picoCTF](https://picoctf.org/get_started.html) [ROP challenges](https://ropemporium.com/) [crackmes](https://crackmes.one) [pwnable.kr](https://pwnable.kr)                        |
 | 🔍 **Forensics**                 | 🟢 **[HTB sherlocks](https://app.hackthebox.com/sherlocks)** => [letsDefend DFIR path](https://app.letsdefend.io/path/dfir-learning-path) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                           |
 | 🔍 **OSINT / Stegano**           | 🟢 [HTB challenges](https://app.hackthebox.com/challenges) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                                                                                                          |
 | 🐧 **Linux / privesc**           | **[overthewire](https://overthewire.org/wargames/bandit)** =>**[THM](https://tryhackme.com)** => 🟡 **[pwn.college privesc](https://pwn.college/privilege-escalation~6d04fe7a/)** => **[VulnHub](https://vulnhub.com)** / **[HTB](https://app.hackthebox.com/starting-point?tab=1)** |
-| 🏢 **AD**                        | 🟢 [[🏴Cbs intermediate roadmap#^f30dd9\|GOAD Game of Active Directory]]                                                                                                                                                                                                             |
+| 🏢 **AD**                        | 🟢 [[🏴Pentest roadmap#^f30dd9\|GOAD Game of Active Directory]]                                                                                                                                                                                                             |
 | ☁️ **Cloud**                     | ☁️ [[☁️cloud CbS roadmap#^a0b546\|yandex cloud courses]] / [[☁️cloud CbS roadmap#^885d58\|CloudGOAT (AWS)]]                                                                                                                                                                          |
 | 🧱 **Sandbox escape**            | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Vulnhub](https:\/\/vulnhub.com)                                                                                                                                                                                                   |
 | 🔒 **Crypto**                    | [cryptohack](https://cryptohack.org/challenges/) / [pwn.college - crypto](https://pwn.college/intro-to-cybersecurity/cryptography/)                                                                                                                                                  |
@@ -312,4 +318,4 @@ more [links](https://github.com/Crypto-Cat/CTF)
 	* WannaCry malware [analysis](https://www.youtube.com/playlist?list=PLniOzp3l9V83Yf52IXJTvW9rjstdqkduP) 
 
 
-[^1]: these languages were chosen because: C/C++ are very fundamental in terms of CS in general, knowing C helps in reverse engineering and binary exploitation, C++ is used for creating malware and most desktop apps, as well as apps for critical infrastructure and embedded. Rust is memory-safe and will replace C/C++ in most critical infrastructure, Go is efficient for backend and has some interesting concepts. You can choose other languages, for example if you are interested in mobile - java/kotlin/swift. Python is not included because it is a default scripting language for pentest, you should know it at this point. JS is not included because you should learn it by doing WEB pentesting at basic level - going too deep in frontend is pointless. PHP is not included because it is becoming legacy, just learn php vulnerabilities. 
+[^1]: these languages were chosen because: C/C++ are very fundamental in terms of CS in general, knowing C helps in reverse engineering and binary exploitation, C++ is used for creating malware and most desktop apps, as well as apps for critical infrastructure and embedded. Rust is memory-safe and will replace C/C++ in most critical infrastructure, Go is efficient for backend and has some interesting concepts. Java is best choice for appsec and reverse engineer / vulnerability researcher. General advice: if you want to do pentest - choose go, otherwise choose Java. Python is not included because it is a default scripting language for pentest, you should know it at this point. JS is not included because you should learn it by doing WEB pentesting at basic level - going too deep in frontend is pointless. PHP is not included because it is becoming almost legacy.
