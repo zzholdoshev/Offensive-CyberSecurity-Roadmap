@@ -59,7 +59,7 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 
 ### Level 1: Linux Fundamentals and Access Rights. Covered in [[🏴Pentest roadmap#^5207fe|pentest roadmap]]
 
-- [x] **Linux Fundamentals (TryHackMe)**: Practicing `chmod`, `chown`, and system structure. [Lab](https://tryhackme.com/module/linux-fundamentals) ✅ 2026-04-03
+- [ ] **Linux Fundamentals (TryHackMe)**: Practicing `chmod`, `chown`, and system structure. [Lab](https://tryhackme.com/module/linux-fundamentals) ✅ 2026-04-03
 
 - [ ] **Agent Sudo (TryHackMe)**: Hacking and securing sudo settings. [Lab](https://tryhackme.com/room/agentsudoctf)
 
@@ -107,7 +107,7 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 
 - [ ] **Scenario "Saint John" (SadServers)**: Finding a process cluttering the disk with logs (DoS risk). [Laba](https://sadservers.com/scenarios)
 
-- [ ] **Scenario "Bilbao" (SadServers)**: Fixing the K8s pod manifest that won't start. [Laba](https://sadservers.com/scenarios)
+- [ ] **Scenario "Bilbao" (SadServers)**: Fixing the K8s pod manifest that won't start. [Lab](https://sadservers.com/scenarios)
 
 - [ ] **Runtime Security with Falco (Killercoda)**: LIVE monitoring of suspicious activity in containers. [Laba](https://killercoda.com/killer-shell-cks/scenario/falco-change-rule)
 
@@ -115,19 +115,23 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 
 
 # K8S and Networks Courses & Labs
+>tl;dr: read roadmap and do labs on free platforms, play games, use yandex cloud / AWS to deploy something
 ## K8S games
 
 ^8d161b
 
 * [ ] https://www.k8sgames
+* [ ] https://k8svisual.com
 * [ ] https://learn.kodekloud.com/user/courses/kubernetes-challenges aka Game of Pods
-* [ ] https://github.com/steadforce/k8s-escape-room/ - kubernetes escape room
 ---
 ## play with kubernetes
 * [ ] https://training.play-with-kubernetes.com/
 ## Kubernetes Goat - k8s security labs
 👉 https://github.com/madhuakula/kubernetes-goat
-
+## ixumiuz
+- [labs.iximiuz.com](https://labs.iximiuz.com)
+## sadservers
+- https://sadservers.com
 ### 💻 topics:
 - Kubernetes misconfig
 - RBAC
@@ -135,19 +139,28 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 
 ## KillerCoda
 - https://killercoda.com/
+## k8s learning path
+- https://github.com/NotHarshhaa/kubernetes-learning-path
 
 ---
 
-# 🧪 Cloud Security - Russian path
+# 🧪 Cloud Security
 - [ ] https://tryhackme.com/room/cloudcomputingfundamentals
 - [ ] https://tryhackme.com/room/cloudsecuritypitfalls
-## yandex courses
+##  Russian path - yandex courses
 
 ^9737c2
 
 ^a0b546
+- [ ] https://yandex.cloud/ru/training/base/?from=training-pro
 * [ ] https://yandex.cloud/ru/training/ycloud?from=training-pro
-* [ ] https://yandex.cloud/ru/training/infrastructure-protection?from=training-pro - protecting cloud infrastructure (ya.cloud)
+* [ ] https://yandex.cloud/ru/training/compute/?from=training-pro
+* [ ] https://yandex.cloud/ru/training/kubernetes/?from=training-pro
+* [ ] https://yandex.cloud/ru/training/terraform/?from=training-pro
+* [ ] https://yandex.cloud/ru/training/gitlab/?from=training-pro
+* [ ] https://yandex.cloud/ru/training/monitoring/?from=training-pro
+* [ ] https://yandex.cloud/ru/training/infrastructure-protection?from=training-pro 
+* [ ] https://yandex.cloud/ru/training/devsecops/?from=training-pro
 * [ ] https://yandex.cloud/ru/training/network-security?from=training-pro
 * [ ] https://yandex.cloud/ru/training/authentication?from=training-pro
 * [ ] https://yandex.cloud/ru/training/appdef?from=training-pro
