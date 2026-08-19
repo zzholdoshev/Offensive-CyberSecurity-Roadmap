@@ -21,7 +21,7 @@ After completing Starting point, choose specialization:
 		- [ ] [Java](https://java-programming.mooc.fi) (best choice for appsec/reverse/mobile security researcher)
 	- [ ] build backend as [pet-project](https://roadmap.sh/golang/projects?difficulty=advanced), or search project ideas in any other language
 	> optional:
-	* [ ] [[☁️cloud CbS roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes 
+	* [ ] [[☁️ Cloud Security Roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes 
 	> recommended:
 	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course(RU)]]
 
@@ -52,6 +52,7 @@ After completing Starting point, choose specialization:
 	* C++: check this [roadmap.sh](https://roadmap.sh/cpp). Also you can develop your own roadmap on learning C++ by asking AI, include coding tasks at the end of every topic.
 	* rust is optional but recommended:
 		 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
+		 * [ ] [rustlings](https://rustlings.rust-lang.org) *recommended* alongside rust book
 		 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
 		 * [ ] Rust: russian-language [course](https://stepik.org/course/195449/syllabus)
 		 * [ ] Rust bootcamp at Ecole42 (**for ecole42 students**)
@@ -289,7 +290,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 | 🔍 **OSINT / Stegano**           | 🟢 [HTB challenges](https://app.hackthebox.com/challenges) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                                                                                                          |
 | 🐧 **Linux / privesc**           | **[overthewire](https://overthewire.org/wargames/bandit)** =>**[THM](https://tryhackme.com)** => 🟡 **[pwn.college privesc](https://pwn.college/privilege-escalation~6d04fe7a/)** => **[VulnHub](https://vulnhub.com)** / **[HTB](https://app.hackthebox.com/starting-point?tab=1)** |
 | 🏢 **AD**                        | 🟢 [[🏴Pentest roadmap#^f30dd9\|GOAD Game of Active Directory]]                                                                                                                                                                                                                      |
-| ☁️ **Cloud**                     | ☁️ [[☁️cloud CbS roadmap#^a0b546\|yandex cloud courses]] / [[☁️cloud CbS roadmap#^885d58\|CloudGOAT (AWS)]]                                                                                                                                                                          |
+| ☁️ **Cloud**                     | ☁️ [[☁️ Cloud Security Roadmap\|yandex cloud courses]]                                                                                                                                                                                                                               |
 | 🧱 **Sandbox escape**            | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Vulnhub](https:\/\/vulnhub.com)                                                                                                                                                                                                   |
 | 🔒 **Crypto**                    | [cryptohack](https://cryptohack.org/challenges/) / [pwn.college - crypto](https://pwn.college/intro-to-cybersecurity/cryptography/)                                                                                                                                                  |
 | 🏴 **CTF / universal platforms** | [picoCTF](https://picoctf.org/get_started.html) / [Hacker101 CTF](https://ctf.hacker101.com/) / [THM](https://tryhackme.com) / [HTB](https://app.hackthebox.com/starting-point?tab=1)                                                                                                |
